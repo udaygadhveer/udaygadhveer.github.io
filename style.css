@@ -179,6 +179,7 @@
 		transform: scale(1, 1);
 		opacity: 0;
 	}
+<<<<<<< Updated upstream
 }
 
 @keyframes pulsate-btn {
@@ -203,6 +204,32 @@
 	padding: 0;
 }
 
+=======
+}
+
+@keyframes pulsate-btn {
+	0% {
+		transform: scale(0.6, 0.6);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1, 1);
+		opacity: 0;
+	}
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+.container .card {
+	padding: 0;
+}
+
+>>>>>>> Stashed changes
 .container h2 {
 	text-decoration: underline;
 	text-decoration-color: black;
@@ -229,6 +256,28 @@
 #footer .footer-top .social-links a:hover {
 	background: #f82249;
 	color: #fff;
+<<<<<<< Updated upstream
+}
+
+.contact-address {
+	font-size: 1rem;
+	width: 50%;
+}
+
+@media (max-width: 530px) {
+	.contact-address {
+		width: 75vw;
+		font-size: 0.8rem;
+	}
+}
+
+@media (max-width: 250px) {
+	.contact-address {
+		width: 90vw !important;
+		font-size: 0.8rem;
+	}
+=======
+>>>>>>> Stashed changes
 }
 
 .contact-address {
@@ -249,3 +298,5 @@
 		font-size: 0.8rem;
 	}
 }
+
+
