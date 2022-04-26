@@ -637,6 +637,30 @@ visibility: visible;
   /* height:60%; */
 
   }
-
   
+ 
 } 
+
+/* conf :start */
+
+.conf h4{
+  color: #19328e;
+  font-weight: 500;
+
+}
+
+.conf h4:hover{
+  color: #f82249;
+}
+.conf li{
+  color: #43075f;
+  font-weight: 300;
+}
+.conf li:hover{
+  color: #f82249;
+}
+
+/* conf :end */
+
+
+
